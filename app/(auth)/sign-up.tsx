@@ -121,7 +121,7 @@ const [verification, setVerification]=useState({
                     </Link>
                 </View>
                 <ReactNativeModal isVisible={verification.state==="success"}>
-                    <View className="bg-white px-7 py-9 roiunded-2xl min-h-[300px]">
+                    <View className="bg-white px-7 py-9 rounded-2xl min-h-[300px]">
                         <Image source={images.check} className= "w-[110px] h-[110px] mx-auto my-5"/>
                         </View>
                 </ReactNativeModal>
